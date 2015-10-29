@@ -1,7 +1,7 @@
 # Pure CSS Lens Flare
 This is a pure CSS3 lens flare effect. It spans the entire area of the browser, no matter the size.
 
-![](http://davejudd.com/images/lens-flare/lens-flare-narrow.jpg) ![](http://davejudd.com/images/lens-flare/lens-flare-wide.jpg)
+![](http://davejudd.com/images/github/lens-flare/lens-flare-narrow.jpg) ![](http://davejudd.com/images/github/lens-flare/lens-flare-wide.jpg)
 
 The circle effect is made with varying styles of radial gradients on DIVs with 50% border radii made to simulate circle shapes.
 
