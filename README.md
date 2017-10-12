@@ -1,5 +1,5 @@
 # Pure CSS Lens Flare
-This is a pure CSS3 lens flare effect. It spans the entire area of the browser, no matter the size.
+This is a pure CSS3 lens flare effect. It spans the entire area of the browser, no matter the size, stretching from the top left corner to the bottome right corner.
 
 ![](http://davejudd.com/images/github/lens-flare/lens-flare-narrow.jpg) ![](http://davejudd.com/images/github/lens-flare/lens-flare-wide.jpg)
 
