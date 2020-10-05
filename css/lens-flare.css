@@ -20,14 +20,13 @@ body {
 .source-spread {
   position: absolute;
   background: radial-gradient(
-								rgba(255,225,255,.05) 10%,
-								rgba(255,225,255,.05) 30%,
-								rgba(0,0,0,0) 60%);
+    rgba(255,225,255,.05) 10%,
+    rgba(255,225,255,.05) 30%,
+    rgba(0,0,0,0) 60%);
   border-radius: 50%;
   width: 2000px;
   height: 2000px;
-  margin-top: -1000px;
-  margin-left: -1000px;
+  margin: -1000px 0 0 -1000px;
   top: 14%;
   left: 14%;
   z-index: 0;
@@ -36,15 +35,14 @@ body {
 .source {
   position: absolute;
   background: radial-gradient(
-								rgba(255,255,255,1) 0%,
-								rgba(243,206,205,.4) 35%,
-								rgba(88,88,88,.3) 60%,
-								rgba(0,0,0,0) 70%);
+    rgba(255,255,255,1) 0%,
+    rgba(243,206,205,.4) 35%,
+    rgba(88,88,88,.3) 60%,
+    rgba(0,0,0,0) 70%);
   border-radius: 50%;
   width: 800px;
   height: 800px;
-  margin-top: -400px;
-  margin-left: -400px;
+  margin: -400px 0 0 -400px;
   top: 14%;
   left: 14%;
   z-index: 2;
@@ -53,13 +51,12 @@ body {
 .source-beam {
   position: absolute;
   background: radial-gradient(
-								rgba(255,255,255,.3) 0%,
-								rgba(0,0,0,0) 70%);
+    rgba(255,255,255,.3) 0%,
+    rgba(0,0,0,0) 70%);
   border-radius: 50%;
   width: 2200px;
   height: 28px;
-  margin-top: -14px;
-  margin-left: -1100px;
+  margin: -14px 0 0 -1100px;
   top: 14%;
   left: 14%;
   z-index: 1;
@@ -67,16 +64,16 @@ body {
 
 .c1 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(189,91,87,0) 40%,
-								rgba(189,91,87,0.5) 45%,
-								rgba(189,91,87,0) 50%,
-								rgba(189,91,87,0) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(189,91,87,0) 40%,
+    rgba(189,91,87,0.5) 45%,
+    rgba(189,91,87,0) 50%,
+    rgba(189,91,87,0) 100%);
   border-radius: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  margin: -200px 0 0 -200px;
   top: 14%;
   left: 14%;
   z-index: 3;
@@ -84,16 +81,16 @@ body {
 
 .c2 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(162,196,134,0) 20%,
-								rgba(162,196,134,0.3) 43%,
-								rgba(67,85,52,0) 50%,
-								rgba(67,85,52,0) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(162,196,134,0) 20%,
+    rgba(162,196,134,0.3) 43%,
+    rgba(67,85,52,0) 50%,
+    rgba(67,85,52,0) 100%);
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  margin-top: -150px;
-  margin-left: -150px;
+  margin: -150px 0 0 -150px;
   top: 3%;
   left: 3%;
   z-index: 4;
@@ -101,14 +98,14 @@ body {
 
 .c3 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(31,99,255,.1) 1%,
-								rgba(31,99,255,.13) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(31,99,255,.1) 1%,
+    rgba(31,99,255,.13) 100%);
   border-radius: 50%;
   width: 160px;
   height: 160px;
-  margin-top: -80px;
-  margin-left: -80px;
+  margin: -80px 0 0 -80px;
   top: 46%;
   left: 46%;
   z-index: 5;
@@ -116,14 +113,14 @@ body {
 
 .c4 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(31,99,255,.1) 1%,
-								rgba(31,99,255,.13) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(31,99,255,.1) 1%,
+    rgba(31,99,255,.13) 100%);
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin-top: -25px;
-  margin-left: -25px;
+  margin: -25px 0 0 -25px;
   top: 44%;
   left: 44%;
   z-index: 6;
@@ -131,14 +128,14 @@ body {
 
 .c5 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(31,99,255,.1) 1%,
-								rgba(31,99,255,.13) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(31,99,255,.1) 1%,
+    rgba(31,99,255,.13) 100%);
   border-radius: 50%;
   width: 88px;
   height: 88px;
-  margin-top: -44px;
-  margin-left: -44px;
+  margin: -44px 0 0 -44px;
   top: 47%;
   left: 47%;
   z-index: 7;
@@ -146,14 +143,14 @@ body {
 
 .c6 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(255,129,57,.15) 1%,
-								rgba(255,129,57,.2) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255,129,57,.15) 1%,
+    rgba(255,129,57,.2) 100%);
   border-radius: 50%;
   width: 88px;
   height: 88px;
-  margin-top: -44px;
-  margin-left: -44px;
+  margin: -44px 0 0 -44px;
   top: 57%;
   left: 57%;
   z-index: 8;
@@ -162,14 +159,13 @@ body {
 .c7 {
   position: absolute;
   background: radial-gradient(
-								rgba(255,225,255,.9) 10%,
-								rgba(137,255,220,.4) 30%,
-								rgba(0,0,0,0) 60%);
+    rgba(255,225,255,.9) 10%,
+    rgba(137,255,220,.4) 30%,
+    rgba(0,0,0,0) 60%);
   border-radius: 50%;
   width: 16px;
   height: 16px;
-  margin-top: -8px;
-  margin-left: -8px;
+  margin: -8px 0 0 -8px;
   top: 62%;
   left: 62%;
   z-index: 9;
@@ -177,16 +173,16 @@ body {
 
 .c8 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(255,129,57,.15) 10%,
-								rgba(187,129,57,.20) 50%,
-								rgba(255,129,57,.2) 60%,
-								rgba(0,0,0,0)65%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255,129,57,.15) 10%,
+    rgba(187,129,57,.20) 50%,
+    rgba(255,129,57,.2) 60%,
+    rgba(0,0,0,0)65%);
   border-radius: 50%;
   width: 190px;
   height: 190px;
-  margin-top: -95px;
-  margin-left: -95px;
+  margin: -95px 0 0 -95px;
   top: 71%;
   left: 71%;
   z-index: 10;
@@ -194,14 +190,14 @@ body {
 
 .c9 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(0,0,0,.15) 1%,
-								rgba(255,129,57,.2) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0,0,0,.15) 1%,
+    rgba(255,129,57,.2) 100%);
   border-radius: 50%;
   width: 104px;
   height: 104px;
-  margin-top: -52px;
-  margin-left: -52px;
+  margin: -52px 0 0 -52px;
   top: 70%;
   left: 70%;
   z-index: 11;
@@ -209,14 +205,14 @@ body {
 
 .c10 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(0,0,0,.15) 1%,
-								rgba(255,129,57,.2) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0,0,0,.15) 1%,
+    rgba(255,129,57,.2) 100%);
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  margin-top: -30px;
-  margin-left: -30px;
+  margin: -30px 0 0 -30px;
   top: 72%;
   left: 72%;
   z-index: 12;
@@ -225,14 +221,13 @@ body {
 .c11 {
   position: absolute;
   background: radial-gradient(
-								rgba(255,225,255,.9) 10%,
-								rgba(137,255,220,.4) 30%,
-								rgba(0,0,0,0) 60%);
+    rgba(255,225,255,.9) 10%,
+    rgba(137,255,220,.4) 30%,
+    rgba(0,0,0,0) 60%);
   border-radius: 50%;
   width: 22px;
   height: 22px;
-  margin-top: -11px;
-  margin-left: -11px;
+  margin: -11px 0 0 -11px;
   top: 75%;
   left: 75%;
   z-index: 13;
@@ -240,16 +235,16 @@ body {
 
 .c12 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(73,168,199,.15) 10%,
-								rgba(100,145,42,.20) 30%,
-								rgba(100,145,42,.2) 60%,
-								rgba(0,0,0,0)65%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(73,168,199,.15) 10%,
+    rgba(100,145,42,.20) 30%,
+    rgba(100,145,42,.2) 60%,
+    rgba(0,0,0,0)65%);
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  margin-top: -40px;
-  margin-left: -40px;
+  margin: -40px 0 0 -40px;
   top: 81%;
   left: 81%;
   z-index: 14;
@@ -257,17 +252,17 @@ body {
 
 .c13 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(0,0,0,.5) 4%,
-								rgba(100,145,42,.2) 36%,
-								rgba(163,240,63,.2) 38%,
-								rgba(100,145,42,.1) 40%,
-								rgba(189,91,87,0) 43%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0,0,0,.5) 4%,
+    rgba(100,145,42,.2) 36%,
+    rgba(163,240,63,.2) 38%,
+    rgba(100,145,42,.1) 40%,
+    rgba(189,91,87,0) 43%);
   border-radius: 50%;
   width: 240px;
   height: 240px;
-  margin-top: -120px;
-  margin-left: -120px;
+  margin: -120px 0 0 -120px;
   top: 88%;
   left: 88%;
   z-index: 15;
@@ -275,18 +270,18 @@ body {
 
 .c14 {
   position: absolute;
-  background: radial-gradient(	ellipse at center,
-								rgba(189,91,87,0) 39%,
-								rgba(94,29,191,0.2) 41%,
-								rgba(29,71,191,0.2) 42%,
-								rgba(191,113,29,0.2) 43%,
-								rgba(189,91,87,0) 45%,
-								rgba(189,91,87,0) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(189,91,87,0) 39%,
+    rgba(94,29,191,0.2) 41%,
+    rgba(29,71,191,0.2) 42%,
+    rgba(191,113,29,0.2) 43%,
+    rgba(189,91,87,0) 45%,
+    rgba(189,91,87,0) 100%);
   border-radius: 50%;
   width: 600px;
   height: 600px;
-  margin-top: -300px;
-  margin-left: -300px;
+  margin: -300px 0 0 -300px;
   top: 99%;
   left: 99%;
   z-index: 16;
